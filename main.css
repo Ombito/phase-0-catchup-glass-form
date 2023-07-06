@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(13, 13, 13);
+}
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+#background {
+    border-radius: 50%;
+    width: 40px;
+    height: 30px;
+    transform: translate(-50% -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+#background .circle {
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    border-radius: 50%;
+}
+.circle:first-child {
+    background-color: linear-gradient(#fff);
+    left: -80px;
+    top: -80px
+}
+.circle:last-child {
+    background-color: linear-gradient(orange);
+    right: -30px;
+    bottom: -80px;
+}
+form {
+    display: block;
+    position: absolute;
+    width: 450px;
+    height: 480px;
+    align-items: center;
+    left: 30%;
+    top: 20%;
+    border: solid 1px ;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 11px;
+    backdrop-filter: blur;
+}
+button {
+    background-color: yellowgreen;
+    border-radius: 15px;
+    height: 45px;
+    margin: 40px 20px 0 22px;
+    width: 90%;
+    cursor: pointer;
+    font-size: 18px;
+}
+label {
+    display: block;
+    margin: 15px 20px;
+    font-size: 20px;
+}
+input {
+    height: 40px;
+    width: 90%;
+    padding: 0 10px 0 15px;
+    margin: 0 12px;
+    font-size: 15px;
+    border-radius: 10px
+}
+.socials {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+#login {
+
+}
