@@ -7,41 +7,43 @@ h2 {
 }
 #background {
     border-radius: 50%;
-    width: 40px;
-    height: 30px;
+    width: 430px;
+    height: 520px;
     transform: translate(-50% -50%);
-    left: 50%;
-    top: 50%;
+    left: 37%;
+    top: 15%;
     position: absolute;
 }
 #background .circle {
     position: absolute;
-    height: 50px;
-    width: 80px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
+    /* background: linear-gradient(#fff); */
 }
 .circle:first-child {
-    background-color: linear-gradient(#fff);
+    background: linear-gradient(#fff, #fff);
     left: -80px;
-    top: -80px
+    top: -50px
 }
 .circle:last-child {
-    background-color: linear-gradient(orange);
+    background: linear-gradient(to right,orange, orange);
     right: -30px;
     bottom: -80px;
 }
 form {
-    display: block;
+    /* display: block; */
     position: absolute;
-    width: 450px;
-    height: 480px;
+    width: 400px;
+    height: 520px;
     align-items: center;
-    left: 30%;
-    top: 20%;
+    left: 50%;
+    top: 50%;
     border: solid 1px ;
     background-color: rgb(255, 255, 255, 0.7);
     border-radius: 11px;
     backdrop-filter: blur;
+    transform: translate(-50%, -50%);
 }
 button {
     background-color: yellowgreen;
@@ -70,6 +72,6 @@ input {
     justify-content: space-between;
     margin-top: 4%;
 }
-#login {
+/* #login {
 
-}
+} */
